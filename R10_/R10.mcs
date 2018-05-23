@@ -1,0 +1,344 @@
+[Header]
+MagicCookie={0b13fe8c-dfe0-40eb-8900-6712719559a7}
+Version=1.0
+[File000]
+Location=D:\workspace14\dsPIC33\code\R10_\main.o
+Folder=Intermediary
+DeviceName=dsPIC33EP64MC204
+LanguageToolSuiteID={9BCCB495-CD65-480A-BA76-63D8E78B117F}
+LanguageToolID={B1442D91-FF1F-4E60-9714-C39C1BA9DB62}
+LanguageToolLocation=C:\Program Files\Microchip\xc16\v1.21\bin\xc16-gcc.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)|C:\Program Files\Microchip\xc16\v1.21\src\libm||$(INCDIR)|C:\Program Files\Microchip\xc16\v1.21\inc||$(LIBDIR)|C:\Program Files\Microchip\xc16\v1.21\lib||$(LKRDIR)||
+SOLK=<src>|main.c|io.c|adc.c|uart.c|delay.c|Timer.c|isr.c|QEI.c|sys.c|pwm.c|D:\workspace14\dsPIC33\code\R5000\break.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-g -Wall
+TraceCmdString=
+DebugOptions=
+[File001]
+Location=D:\workspace14\dsPIC33\code\R10_\io.o
+Folder=Intermediary
+DeviceName=dsPIC33EP64MC204
+LanguageToolSuiteID={9BCCB495-CD65-480A-BA76-63D8E78B117F}
+LanguageToolID={B1442D91-FF1F-4E60-9714-C39C1BA9DB62}
+LanguageToolLocation=C:\Program Files\Microchip\xc16\v1.21\bin\xc16-gcc.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)|C:\Program Files\Microchip\xc16\v1.21\src\libm||$(INCDIR)|C:\Program Files\Microchip\xc16\v1.21\inc||$(LIBDIR)|C:\Program Files\Microchip\xc16\v1.21\lib||$(LKRDIR)||
+SOLK=<src>|main.c|io.c|adc.c|uart.c|delay.c|Timer.c|isr.c|QEI.c|sys.c|pwm.c|D:\workspace14\dsPIC33\code\R5000\break.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-g -Wall
+TraceCmdString=
+DebugOptions=
+[File002]
+Location=D:\workspace14\dsPIC33\code\R10_\adc.o
+Folder=Intermediary
+DeviceName=dsPIC33EP64MC204
+LanguageToolSuiteID={9BCCB495-CD65-480A-BA76-63D8E78B117F}
+LanguageToolID={B1442D91-FF1F-4E60-9714-C39C1BA9DB62}
+LanguageToolLocation=C:\Program Files\Microchip\xc16\v1.21\bin\xc16-gcc.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)|C:\Program Files\Microchip\xc16\v1.21\src\libm||$(INCDIR)|C:\Program Files\Microchip\xc16\v1.21\inc||$(LIBDIR)|C:\Program Files\Microchip\xc16\v1.21\lib||$(LKRDIR)||
+SOLK=<src>|main.c|io.c|adc.c|uart.c|delay.c|Timer.c|isr.c|QEI.c|sys.c|pwm.c|D:\workspace14\dsPIC33\code\R5000\break.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-g -Wall
+TraceCmdString=
+DebugOptions=
+[File003]
+Location=D:\workspace14\dsPIC33\code\R10_\uart.o
+Folder=Intermediary
+DeviceName=dsPIC33EP64MC204
+LanguageToolSuiteID={9BCCB495-CD65-480A-BA76-63D8E78B117F}
+LanguageToolID={B1442D91-FF1F-4E60-9714-C39C1BA9DB62}
+LanguageToolLocation=C:\Program Files\Microchip\xc16\v1.21\bin\xc16-gcc.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)|C:\Program Files\Microchip\xc16\v1.21\src\libm||$(INCDIR)|C:\Program Files\Microchip\xc16\v1.21\inc||$(LIBDIR)|C:\Program Files\Microchip\xc16\v1.21\lib||$(LKRDIR)||
+SOLK=<src>|main.c|io.c|adc.c|uart.c|delay.c|Timer.c|isr.c|QEI.c|sys.c|pwm.c|D:\workspace14\dsPIC33\code\R5000\break.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-g -Wall
+TraceCmdString=
+DebugOptions=
+[File004]
+Location=D:\workspace14\dsPIC33\code\R10_\delay.o
+Folder=Intermediary
+DeviceName=dsPIC33EP64MC204
+LanguageToolSuiteID={9BCCB495-CD65-480A-BA76-63D8E78B117F}
+LanguageToolID={B1442D91-FF1F-4E60-9714-C39C1BA9DB62}
+LanguageToolLocation=C:\Program Files\Microchip\xc16\v1.21\bin\xc16-gcc.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)|C:\Program Files\Microchip\xc16\v1.21\src\libm||$(INCDIR)|C:\Program Files\Microchip\xc16\v1.21\inc||$(LIBDIR)|C:\Program Files\Microchip\xc16\v1.21\lib||$(LKRDIR)||
+SOLK=<src>|main.c|io.c|adc.c|uart.c|delay.c|Timer.c|isr.c|QEI.c|sys.c|pwm.c|D:\workspace14\dsPIC33\code\R5000\break.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-g -Wall
+TraceCmdString=
+DebugOptions=
+[File005]
+Location=D:\workspace14\dsPIC33\code\R10_\Timer.o
+Folder=Intermediary
+DeviceName=dsPIC33EP64MC204
+LanguageToolSuiteID={9BCCB495-CD65-480A-BA76-63D8E78B117F}
+LanguageToolID={B1442D91-FF1F-4E60-9714-C39C1BA9DB62}
+LanguageToolLocation=C:\Program Files\Microchip\xc16\v1.21\bin\xc16-gcc.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)|C:\Program Files\Microchip\xc16\v1.21\src\libm||$(INCDIR)|C:\Program Files\Microchip\xc16\v1.21\inc||$(LIBDIR)|C:\Program Files\Microchip\xc16\v1.21\lib||$(LKRDIR)||
+SOLK=<src>|main.c|io.c|adc.c|uart.c|delay.c|Timer.c|isr.c|QEI.c|sys.c|pwm.c|D:\workspace14\dsPIC33\code\R5000\break.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-g -Wall
+TraceCmdString=
+DebugOptions=
+[File006]
+Location=D:\workspace14\dsPIC33\code\R10_\isr.o
+Folder=Intermediary
+DeviceName=dsPIC33EP64MC204
+LanguageToolSuiteID={9BCCB495-CD65-480A-BA76-63D8E78B117F}
+LanguageToolID={B1442D91-FF1F-4E60-9714-C39C1BA9DB62}
+LanguageToolLocation=C:\Program Files\Microchip\xc16\v1.21\bin\xc16-gcc.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)|C:\Program Files\Microchip\xc16\v1.21\src\libm||$(INCDIR)|C:\Program Files\Microchip\xc16\v1.21\inc||$(LIBDIR)|C:\Program Files\Microchip\xc16\v1.21\lib||$(LKRDIR)||
+SOLK=<src>|main.c|io.c|adc.c|uart.c|delay.c|Timer.c|isr.c|QEI.c|sys.c|pwm.c|D:\workspace14\dsPIC33\code\R5000\break.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-g -Wall
+TraceCmdString=
+DebugOptions=
+[File007]
+Location=D:\workspace14\dsPIC33\code\R10_\QEI.o
+Folder=Intermediary
+DeviceName=dsPIC33EP64MC204
+LanguageToolSuiteID={9BCCB495-CD65-480A-BA76-63D8E78B117F}
+LanguageToolID={B1442D91-FF1F-4E60-9714-C39C1BA9DB62}
+LanguageToolLocation=C:\Program Files\Microchip\xc16\v1.21\bin\xc16-gcc.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)|C:\Program Files\Microchip\xc16\v1.21\src\libm||$(INCDIR)|C:\Program Files\Microchip\xc16\v1.21\inc||$(LIBDIR)|C:\Program Files\Microchip\xc16\v1.21\lib||$(LKRDIR)||
+SOLK=<src>|main.c|io.c|adc.c|uart.c|delay.c|Timer.c|isr.c|QEI.c|sys.c|pwm.c|D:\workspace14\dsPIC33\code\R5000\break.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-g -Wall
+TraceCmdString=
+DebugOptions=
+[File008]
+Location=D:\workspace14\dsPIC33\code\R10_\sys.o
+Folder=Intermediary
+DeviceName=dsPIC33EP64MC204
+LanguageToolSuiteID={9BCCB495-CD65-480A-BA76-63D8E78B117F}
+LanguageToolID={B1442D91-FF1F-4E60-9714-C39C1BA9DB62}
+LanguageToolLocation=C:\Program Files\Microchip\xc16\v1.21\bin\xc16-gcc.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)|C:\Program Files\Microchip\xc16\v1.21\src\libm||$(INCDIR)|C:\Program Files\Microchip\xc16\v1.21\inc||$(LIBDIR)|C:\Program Files\Microchip\xc16\v1.21\lib||$(LKRDIR)||
+SOLK=<src>|main.c|io.c|adc.c|uart.c|delay.c|Timer.c|isr.c|QEI.c|sys.c|pwm.c|D:\workspace14\dsPIC33\code\R5000\break.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-g -Wall
+TraceCmdString=
+DebugOptions=
+[File009]
+Location=D:\workspace14\dsPIC33\code\R10_\pwm.o
+Folder=Intermediary
+DeviceName=dsPIC33EP64MC204
+LanguageToolSuiteID={9BCCB495-CD65-480A-BA76-63D8E78B117F}
+LanguageToolID={B1442D91-FF1F-4E60-9714-C39C1BA9DB62}
+LanguageToolLocation=C:\Program Files\Microchip\xc16\v1.21\bin\xc16-gcc.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)|C:\Program Files\Microchip\xc16\v1.21\src\libm||$(INCDIR)|C:\Program Files\Microchip\xc16\v1.21\inc||$(LIBDIR)|C:\Program Files\Microchip\xc16\v1.21\lib||$(LKRDIR)||
+SOLK=<src>|main.c|io.c|adc.c|uart.c|delay.c|Timer.c|isr.c|QEI.c|sys.c|pwm.c|D:\workspace14\dsPIC33\code\R5000\break.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-g -Wall
+TraceCmdString=
+DebugOptions=
+[File010]
+Location=D:\workspace14\dsPIC33\code\R10_\break.o
+Folder=Intermediary
+DeviceName=dsPIC33EP64MC204
+LanguageToolSuiteID={9BCCB495-CD65-480A-BA76-63D8E78B117F}
+LanguageToolID={B1442D91-FF1F-4E60-9714-C39C1BA9DB62}
+LanguageToolLocation=C:\Program Files\Microchip\xc16\v1.21\bin\xc16-gcc.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)|C:\Program Files\Microchip\xc16\v1.21\src\libm||$(INCDIR)|C:\Program Files\Microchip\xc16\v1.21\inc||$(LIBDIR)|C:\Program Files\Microchip\xc16\v1.21\lib||$(LKRDIR)||
+SOLK=<src>|main.c|io.c|adc.c|uart.c|delay.c|Timer.c|isr.c|QEI.c|sys.c|pwm.c|D:\workspace14\dsPIC33\code\R5000\break.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-g -Wall
+TraceCmdString=
+DebugOptions=
+[File011]
+Location=E:\mywork\[20180408]开关磁阻\workspace14\dsPIC33\code\R10_\main.o
+Folder=Intermediary
+DeviceName=dsPIC33EP32MC204
+LanguageToolSuiteID={9BCCB495-CD65-480A-BA76-63D8E78B117F}
+LanguageToolID={B1442D91-FF1F-4E60-9714-C39C1BA9DB62}
+LanguageToolLocation=C:\Program Files (x86)\Microchip\xc16\v1.21\bin\xc16-gcc.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)|C:\Program Files (x86)\Microchip\xc16\v1.21\src\libm||$(INCDIR)|C:\Program Files (x86)\Microchip\xc16\v1.21\inc||$(LIBDIR)|C:\Program Files (x86)\Microchip\xc16\v1.21\lib||$(LKRDIR)||
+SOLK=<src>|main.c|io.c|adc.c|uart.c|delay.c|Timer.c|isr.c|QEI.c|sys.c|pwm.c|break.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-g -Wall
+TraceCmdString=
+DebugOptions=-D__DEBUG
+[File012]
+Location=E:\mywork\[20180408]开关磁阻\workspace14\dsPIC33\code\R10_\io.o
+Folder=Intermediary
+DeviceName=dsPIC33EP32MC204
+LanguageToolSuiteID={9BCCB495-CD65-480A-BA76-63D8E78B117F}
+LanguageToolID={B1442D91-FF1F-4E60-9714-C39C1BA9DB62}
+LanguageToolLocation=C:\Program Files (x86)\Microchip\xc16\v1.21\bin\xc16-gcc.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)|C:\Program Files (x86)\Microchip\xc16\v1.21\src\libm||$(INCDIR)|C:\Program Files (x86)\Microchip\xc16\v1.21\inc||$(LIBDIR)|C:\Program Files (x86)\Microchip\xc16\v1.21\lib||$(LKRDIR)||
+SOLK=<src>|main.c|io.c|adc.c|uart.c|delay.c|Timer.c|isr.c|QEI.c|sys.c|pwm.c|break.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-g -Wall
+TraceCmdString=
+DebugOptions=-D__DEBUG
+[File013]
+Location=E:\mywork\[20180408]开关磁阻\workspace14\dsPIC33\code\R10_\adc.o
+Folder=Intermediary
+DeviceName=dsPIC33EP32MC204
+LanguageToolSuiteID={9BCCB495-CD65-480A-BA76-63D8E78B117F}
+LanguageToolID={B1442D91-FF1F-4E60-9714-C39C1BA9DB62}
+LanguageToolLocation=C:\Program Files (x86)\Microchip\xc16\v1.21\bin\xc16-gcc.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)|C:\Program Files (x86)\Microchip\xc16\v1.21\src\libm||$(INCDIR)|C:\Program Files (x86)\Microchip\xc16\v1.21\inc||$(LIBDIR)|C:\Program Files (x86)\Microchip\xc16\v1.21\lib||$(LKRDIR)||
+SOLK=<src>|main.c|io.c|adc.c|uart.c|delay.c|Timer.c|isr.c|QEI.c|sys.c|pwm.c|break.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-g -Wall
+TraceCmdString=
+DebugOptions=-D__DEBUG
+[File014]
+Location=E:\mywork\[20180408]开关磁阻\workspace14\dsPIC33\code\R10_\uart.o
+Folder=Intermediary
+DeviceName=dsPIC33EP32MC204
+LanguageToolSuiteID={9BCCB495-CD65-480A-BA76-63D8E78B117F}
+LanguageToolID={B1442D91-FF1F-4E60-9714-C39C1BA9DB62}
+LanguageToolLocation=C:\Program Files (x86)\Microchip\xc16\v1.21\bin\xc16-gcc.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)|C:\Program Files (x86)\Microchip\xc16\v1.21\src\libm||$(INCDIR)|C:\Program Files (x86)\Microchip\xc16\v1.21\inc||$(LIBDIR)|C:\Program Files (x86)\Microchip\xc16\v1.21\lib||$(LKRDIR)||
+SOLK=<src>|main.c|io.c|adc.c|uart.c|delay.c|Timer.c|isr.c|QEI.c|sys.c|pwm.c|break.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-g -Wall
+TraceCmdString=
+DebugOptions=-D__DEBUG
+[File015]
+Location=E:\mywork\[20180408]开关磁阻\workspace14\dsPIC33\code\R10_\delay.o
+Folder=Intermediary
+DeviceName=dsPIC33EP32MC204
+LanguageToolSuiteID={9BCCB495-CD65-480A-BA76-63D8E78B117F}
+LanguageToolID={B1442D91-FF1F-4E60-9714-C39C1BA9DB62}
+LanguageToolLocation=C:\Program Files (x86)\Microchip\xc16\v1.21\bin\xc16-gcc.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)|C:\Program Files (x86)\Microchip\xc16\v1.21\src\libm||$(INCDIR)|C:\Program Files (x86)\Microchip\xc16\v1.21\inc||$(LIBDIR)|C:\Program Files (x86)\Microchip\xc16\v1.21\lib||$(LKRDIR)||
+SOLK=<src>|main.c|io.c|adc.c|uart.c|delay.c|Timer.c|isr.c|QEI.c|sys.c|pwm.c|break.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-g -Wall
+TraceCmdString=
+DebugOptions=-D__DEBUG
+[File016]
+Location=E:\mywork\[20180408]开关磁阻\workspace14\dsPIC33\code\R10_\Timer.o
+Folder=Intermediary
+DeviceName=dsPIC33EP32MC204
+LanguageToolSuiteID={9BCCB495-CD65-480A-BA76-63D8E78B117F}
+LanguageToolID={B1442D91-FF1F-4E60-9714-C39C1BA9DB62}
+LanguageToolLocation=C:\Program Files (x86)\Microchip\xc16\v1.21\bin\xc16-gcc.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)|C:\Program Files (x86)\Microchip\xc16\v1.21\src\libm||$(INCDIR)|C:\Program Files (x86)\Microchip\xc16\v1.21\inc||$(LIBDIR)|C:\Program Files (x86)\Microchip\xc16\v1.21\lib||$(LKRDIR)||
+SOLK=<src>|main.c|io.c|adc.c|uart.c|delay.c|Timer.c|isr.c|QEI.c|sys.c|pwm.c|break.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-g -Wall
+TraceCmdString=
+DebugOptions=-D__DEBUG
+[File017]
+Location=E:\mywork\[20180408]开关磁阻\workspace14\dsPIC33\code\R10_\isr.o
+Folder=Intermediary
+DeviceName=dsPIC33EP32MC204
+LanguageToolSuiteID={9BCCB495-CD65-480A-BA76-63D8E78B117F}
+LanguageToolID={B1442D91-FF1F-4E60-9714-C39C1BA9DB62}
+LanguageToolLocation=C:\Program Files (x86)\Microchip\xc16\v1.21\bin\xc16-gcc.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)|C:\Program Files (x86)\Microchip\xc16\v1.21\src\libm||$(INCDIR)|C:\Program Files (x86)\Microchip\xc16\v1.21\inc||$(LIBDIR)|C:\Program Files (x86)\Microchip\xc16\v1.21\lib||$(LKRDIR)||
+SOLK=<src>|main.c|io.c|adc.c|uart.c|delay.c|Timer.c|isr.c|QEI.c|sys.c|pwm.c|break.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-g -Wall
+TraceCmdString=
+DebugOptions=-D__DEBUG
+[File018]
+Location=E:\mywork\[20180408]开关磁阻\workspace14\dsPIC33\code\R10_\QEI.o
+Folder=Intermediary
+DeviceName=dsPIC33EP32MC204
+LanguageToolSuiteID={9BCCB495-CD65-480A-BA76-63D8E78B117F}
+LanguageToolID={B1442D91-FF1F-4E60-9714-C39C1BA9DB62}
+LanguageToolLocation=C:\Program Files (x86)\Microchip\xc16\v1.21\bin\xc16-gcc.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)|C:\Program Files (x86)\Microchip\xc16\v1.21\src\libm||$(INCDIR)|C:\Program Files (x86)\Microchip\xc16\v1.21\inc||$(LIBDIR)|C:\Program Files (x86)\Microchip\xc16\v1.21\lib||$(LKRDIR)||
+SOLK=<src>|main.c|io.c|adc.c|uart.c|delay.c|Timer.c|isr.c|QEI.c|sys.c|pwm.c|break.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-g -Wall
+TraceCmdString=
+DebugOptions=-D__DEBUG
+[File019]
+Location=E:\mywork\[20180408]开关磁阻\workspace14\dsPIC33\code\R10_\sys.o
+Folder=Intermediary
+DeviceName=dsPIC33EP32MC204
+LanguageToolSuiteID={9BCCB495-CD65-480A-BA76-63D8E78B117F}
+LanguageToolID={B1442D91-FF1F-4E60-9714-C39C1BA9DB62}
+LanguageToolLocation=C:\Program Files (x86)\Microchip\xc16\v1.21\bin\xc16-gcc.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)|C:\Program Files (x86)\Microchip\xc16\v1.21\src\libm||$(INCDIR)|C:\Program Files (x86)\Microchip\xc16\v1.21\inc||$(LIBDIR)|C:\Program Files (x86)\Microchip\xc16\v1.21\lib||$(LKRDIR)||
+SOLK=<src>|main.c|io.c|adc.c|uart.c|delay.c|Timer.c|isr.c|QEI.c|sys.c|pwm.c|break.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-g -Wall
+TraceCmdString=
+DebugOptions=-D__DEBUG
+[File020]
+Location=E:\mywork\[20180408]开关磁阻\workspace14\dsPIC33\code\R10_\pwm.o
+Folder=Intermediary
+DeviceName=dsPIC33EP32MC204
+LanguageToolSuiteID={9BCCB495-CD65-480A-BA76-63D8E78B117F}
+LanguageToolID={B1442D91-FF1F-4E60-9714-C39C1BA9DB62}
+LanguageToolLocation=C:\Program Files (x86)\Microchip\xc16\v1.21\bin\xc16-gcc.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)|C:\Program Files (x86)\Microchip\xc16\v1.21\src\libm||$(INCDIR)|C:\Program Files (x86)\Microchip\xc16\v1.21\inc||$(LIBDIR)|C:\Program Files (x86)\Microchip\xc16\v1.21\lib||$(LKRDIR)||
+SOLK=<src>|main.c|io.c|adc.c|uart.c|delay.c|Timer.c|isr.c|QEI.c|sys.c|pwm.c|break.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-g -Wall
+TraceCmdString=
+DebugOptions=-D__DEBUG
+[File021]
+Location=E:\mywork\[20180408]开关磁阻\workspace14\dsPIC33\code\R10_\break.o
+Folder=Intermediary
+DeviceName=dsPIC33EP32MC204
+LanguageToolSuiteID={9BCCB495-CD65-480A-BA76-63D8E78B117F}
+LanguageToolID={B1442D91-FF1F-4E60-9714-C39C1BA9DB62}
+LanguageToolLocation=C:\Program Files (x86)\Microchip\xc16\v1.21\bin\xc16-gcc.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)|C:\Program Files (x86)\Microchip\xc16\v1.21\src\libm||$(INCDIR)|C:\Program Files (x86)\Microchip\xc16\v1.21\inc||$(LIBDIR)|C:\Program Files (x86)\Microchip\xc16\v1.21\lib||$(LKRDIR)||
+SOLK=<src>|main.c|io.c|adc.c|uart.c|delay.c|Timer.c|isr.c|QEI.c|sys.c|pwm.c|break.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-g -Wall
+TraceCmdString=
+DebugOptions=-D__DEBUG
+[File022]
+Location=D:\workspace14\dsPIC33\code\R10_\R10.cof
+Folder=Output
+DeviceName=dsPIC33EP64MC204
+LanguageToolSuiteID={9BCCB495-CD65-480A-BA76-63D8E78B117F}
+LanguageToolID={6836D8CA-42BB-48FB-9E77-3F0AA8005073}
+LanguageToolLocation=C:\Program Files\Microchip\xc16\v1.21\bin\xc16-ld.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)|C:\Program Files\Microchip\xc16\v1.21\src\libm||$(INCDIR)|C:\Program Files\Microchip\xc16\v1.21\inc||$(LIBDIR)|C:\Program Files\Microchip\xc16\v1.21\lib||$(LKRDIR)||
+SOLK=<src>|main.c|io.c|adc.c|uart.c|delay.c|Timer.c|isr.c|QEI.c|sys.c|pwm.c|D:\workspace14\dsPIC33\code\R5000\break.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-Map="$(BINDIR_)$(TARGETBASE).map" --report-mem -o"$(BINDIR_)$(TARGETBASE).$(TARGETSUFFIX)"
+TraceCmdString=
+DebugOptions=
+[File023]
+Location=D:\workspace14\dsPIC33\code\R10_\R10.hex
+Folder=Output
+DeviceName=dsPIC33EP64MC204
+LanguageToolSuiteID={9BCCB495-CD65-480A-BA76-63D8E78B117F}
+LanguageToolID={6836D8CA-42BB-48FB-9E77-3F0AA8005073}
+LanguageToolLocation=C:\Program Files\Microchip\xc16\v1.21\bin\xc16-ld.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)|C:\Program Files\Microchip\xc16\v1.21\src\libm||$(INCDIR)|C:\Program Files\Microchip\xc16\v1.21\inc||$(LIBDIR)|C:\Program Files\Microchip\xc16\v1.21\lib||$(LKRDIR)||
+SOLK=<src>|main.c|io.c|adc.c|uart.c|delay.c|Timer.c|isr.c|QEI.c|sys.c|pwm.c|D:\workspace14\dsPIC33\code\R5000\break.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-Map="$(BINDIR_)$(TARGETBASE).map" --report-mem -o"$(BINDIR_)$(TARGETBASE).$(TARGETSUFFIX)"
+TraceCmdString=
+DebugOptions=
+[File024]
+Location=E:\mywork\[20180408]开关磁阻\workspace14\dsPIC33\code\R10_\R10.cof
+Folder=Output
+DeviceName=dsPIC33EP32MC204
+LanguageToolSuiteID={9BCCB495-CD65-480A-BA76-63D8E78B117F}
+LanguageToolID={6836D8CA-42BB-48FB-9E77-3F0AA8005073}
+LanguageToolLocation=C:\Program Files (x86)\Microchip\xc16\v1.21\bin\xc16-ld.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)|C:\Program Files (x86)\Microchip\xc16\v1.21\src\libm||$(INCDIR)|C:\Program Files (x86)\Microchip\xc16\v1.21\inc||$(LIBDIR)|C:\Program Files (x86)\Microchip\xc16\v1.21\lib||$(LKRDIR)||
+SOLK=<src>|main.c|io.c|adc.c|uart.c|delay.c|Timer.c|isr.c|QEI.c|sys.c|pwm.c|break.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-Map="$(BINDIR_)$(TARGETBASE).map" --report-mem -o"$(BINDIR_)$(TARGETBASE).$(TARGETSUFFIX)"
+TraceCmdString=
+DebugOptions=--defsym=__MPLAB_DEBUG=1
+[File025]
+Location=E:\mywork\[20180408]开关磁阻\workspace14\dsPIC33\code\R10_\R10.hex
+Folder=Output
+DeviceName=dsPIC33EP32MC204
+LanguageToolSuiteID={9BCCB495-CD65-480A-BA76-63D8E78B117F}
+LanguageToolID={6836D8CA-42BB-48FB-9E77-3F0AA8005073}
+LanguageToolLocation=C:\Program Files (x86)\Microchip\xc16\v1.21\bin\xc16-ld.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)|C:\Program Files (x86)\Microchip\xc16\v1.21\src\libm||$(INCDIR)|C:\Program Files (x86)\Microchip\xc16\v1.21\inc||$(LIBDIR)|C:\Program Files (x86)\Microchip\xc16\v1.21\lib||$(LKRDIR)||
+SOLK=<src>|main.c|io.c|adc.c|uart.c|delay.c|Timer.c|isr.c|QEI.c|sys.c|pwm.c|break.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-Map="$(BINDIR_)$(TARGETBASE).map" --report-mem -o"$(BINDIR_)$(TARGETBASE).$(TARGETSUFFIX)"
+TraceCmdString=
+DebugOptions=--defsym=__MPLAB_DEBUG=1
+[TOOL_LOC_STAMPS]
+tool_loc{B1442D91-FF1F-4E60-9714-C39C1BA9DB62}=C:\Program Files (x86)\Microchip\xc16\v1.21\bin\xc16-gcc.exe
+tool_loc{6836D8CA-42BB-48FB-9E77-3F0AA8005073}=C:\Program Files (x86)\Microchip\xc16\v1.21\bin\xc16-ld.exe
