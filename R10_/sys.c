@@ -93,6 +93,7 @@ void Init_System( void )
 }
 
 
+// set systme clock
 void Init_Clock( void )
 {
 
