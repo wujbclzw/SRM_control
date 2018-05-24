@@ -52,7 +52,11 @@ unsigned int 	lastSensor2 ;
 
 int 			glb_TimeCnt , glb_Position ;
 */
-
+// 控制每一相的电流 先上升（1/3周期） 再下降（1/3周期） 再保持零（1/3周期） 
+// 每一相都按这样的电流曲线来执行  
+// 遇到堵转时 增大电流值
+// 判断正反相
+// 不检测位置传感器，遮光片的值
 
 int main()
 {		
@@ -117,7 +121,7 @@ int main()
 								// 333,344,355,366,377,388,400,411,422,433,444,455,466,477,488,500,511,522,533,544,555,566,577,588,600,600,588,577,566,
 								// 555,544,533,522,511,500,488,477,466,455,444,433,422,411,400,388,377,366,355,344,333,322,311,300,288,277,266,255,244,
 								// 233,222,211,200,188,177,166,155,144,133,122,111,100, 88, 77, 66, 55, 44, 33, 22, 11,  0,  0} ;
-								
+		// 三角形电流曲线		
 		int  CurrentAry[112] = {   7, 14, 22, 29, 37, 44, 51, 59, 66, 74, 81, 88, 96,103,111,118,125,133,140,148,155,162,170,177,185,192,200,207,214
 								,222,229,237,244,251,259,266,274,281,288,296,303,311,318,325,333,340,348,355,362,370,377,385,392,400,400,392,385,377
 								,370,362,355,348,340,333,325,318,311,303,296,288,281,274,266,259,251,244,237,229,222,214,207,200,192,185,177,170,162
@@ -132,7 +136,7 @@ int main()
 		StopMotor() ;
 		// WaitingforStop2();
 		
-		// deal with voltage abnormal
+		// 过压 欠压保护
 		while( Voltage_Protect )
 		{
 			_LEDYLW = 1 ;   Delay_nms(200) ;  _LEDYLW = 0 ; Delay_nms(200) ;
@@ -211,14 +215,14 @@ int main()
 		{	
 		
 			Read_SenSor(nTmp);
-			if(nTmp != lastSensor)
+			if (nTmp != lastSensor)
 			{
 				//SCI_Send_Char(nTmp);
-				
+
 				//SCI_Send_Char(pt);
-				nSensorChange ++ ;
-				nRunAllFlg |= (1<<nTmp)	;
-				lastSensor = nTmp ;
+				nSensorChange++;
+				nRunAllFlg |= (1 << nTmp);
+				lastSensor = nTmp;
 			}
 			// Timer 4 interrupt
 			if(IFS1bits.T4IF)		// check Timer4 interrupt 
@@ -255,7 +259,7 @@ int main()
 					if( pt >  110 ) 	 	IOCON2 = 0xC700 ;
 					else 				{	IOCON2 = 0xC680 ;		CurphB =  CurrentAry[pt] ;	}
 				}
-				
+				// 总的来说相当于 pt++
 				pt += 55 ;
 				if(pt >= 162) pt -= 162 ;
 				
@@ -264,7 +268,7 @@ int main()
 				{
 					if( ( nRunAllFlg != 0x7E) && (I_CtrlP2A < 1200) )
 					{
-						// blocked
+						// blocked 电机堵转
 						I_CtrlP2A += 80 ;
 						I_CtrlP2B += 80 ;
 						I_CtrlP2C += 80 ;
@@ -282,8 +286,8 @@ int main()
 				IFS1bits.T4IF = 0 ;
 			}
 
-			// current control loop
-			if(IFS1bits.T5IF)
+			// 电流控制  定时器频率 16K
+			if(IFS1bits.T5IF)			
 			{
 				int nLowA , nHighA ;
 				int nLowB , nHighB ;
@@ -333,9 +337,17 @@ int main()
 					phBflg ++ ;
 					
 					I_motor = CurphB ;
-					if( nTmp < ( I_motor + I_CtrlP2B ) ) 	{	PDC2 = PDC_set2 ;   	nLowB ++ ; }
-					else 					{	PDC2 = (PDC_set2>>2) ;  nHighB ++ ;  }
-					
+					if (nTmp < (I_motor + I_CtrlP2B))
+					{
+						PDC2 = PDC_set2;
+						nLowB++;
+					}
+					else
+					{
+						PDC2 = (PDC_set2 >> 2);
+						nHighB++;
+					}
+
 					if(phBflg == 7)
 					{
 						if	( nHighB <  nLowB )	PDC_set2 += (I_motor>>1) ;
@@ -356,7 +368,7 @@ int main()
 					}
 				}
 				
-				// phase C				
+				// phase C	
 				
 				if( 0xC680 == IOCON3 )
 				{
@@ -389,17 +401,14 @@ int main()
 						}
 					}
 				}
-				
 			}
 
 			
 			//quit condition check
-			rdAD = ADdata_RdDWJ() ;
-			if(rdAD < 160)	
-			{
-				rdAD = ADdata_RdDWJ() ;
-				if(rdAD < 160)	 break;
-			}
+			rdAD = ADdata_RdDWJ();
+
+			if (rdAD < 160)
+				break;
 			// check for reverse runing
 			if(DirectionBit != RunDirection ) 	{	RunDirection = DirectionBit ;	break;		}
 			// check for voltage 

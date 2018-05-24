@@ -1,3 +1,7 @@
+# ignore folder
+R10/
+R10_v2/
+
 # Prerequisites
 *.d
 
